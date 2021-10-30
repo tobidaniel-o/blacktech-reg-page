@@ -1,0 +1,157 @@
+/*   color variables */
+$clr-primary: #18ffff;
+$clr-primary-light: #adffff;
+$clr-primary-dark: #091034;
+$clr-gray100: #f9fbff;
+$clr-gray150: #f4f6fb;
+$clr-gray200: #eef1f6;
+$clr-gray300: #e1e5ee;
+$clr-gray400: #767b91;
+$clr-gray500: #4f546c;
+$clr-gray600: #2a324b;
+$clr-gray700: #161d34;
+$clr-bg: #060b23;
+
+body {
+  background-color: $clr-bg;
+  color: white;
+  font-family: "Convergence", sans-serif;
+}
+
+.wrapper {
+  max-width: 1200px;
+  width: 60%;
+  margin: 3rem auto;
+}
+
+.div-one,
+.div-two {
+  border: 1px solid white;
+  width: 45%;
+  padding: 0 1rem 1rem 1rem;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1.9rem;
+  font-size: 1.8rem;
+  letter-spacing: 0.3rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+
+  .div-two {
+    .div-two-container {
+      display: flex;
+
+      .button {
+        padding: 0.5rem 2rem 0.3rem 2rem;
+        font-family: inherit;
+        border: none;
+        border: 1px solid white;
+        cursor: pointer;
+
+        &:hover {
+          background-color: inherit;
+          border: 1px solid white;
+          color: white;
+        }
+      }
+    }
+    .div2-form-label {
+      margin-top: 1rem;
+
+      input {
+        padding: 0.3rem;
+        outline: none;
+        font-size: 1rem;
+
+        &::placeholder {
+          font-family: inherit;
+          font-size: 0.9rem;
+        }
+      }
+      label {
+        margin-bottom: 0.5rem;
+        display: inline-block;
+      }
+    }
+  }
+
+  .form {
+    .form-label {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+
+      label {
+        margin-bottom: 0.5rem;
+      }
+    }
+
+    input {
+      padding: 0.5rem;
+      outline: none;
+      font-size: 1rem;
+    }
+
+    textarea {
+      resize: none;
+      outline: none;
+      font-family: inherit;
+    }
+
+    .button {
+      width: 100%;
+      font-weight: bold;
+      font-size: 1.1rem;
+      cursor: pointer;
+    }
+  }
+}
+
+// .container {
+//   display: flex;
+//   justify-content: space-between;
+//   .searchBox {
+
+//   }
+
+//   .form {
+//     .form-label {
+//       display: flex;
+//       flex-direction: column;
+//       justify-content: space-between;
+//       margin-top: 1rem;
+//       margin-bottom: 1rem;
+
+//       label {
+//         margin-bottom: 0.5rem;
+//       }
+//     }
+
+//     input {
+//       padding: 0.8rem;
+//       outline: none;
+//       font-size: 1.1rem;
+//     }
+
+//     textarea {
+//       resize: none;
+//       outline: none;
+//       font-family: inherit;
+//     }
+
+//     .button {
+//       width: 100%;
+//       font-weight: bold;
+//       font-size: 1.1rem;
+//       cursor: pointer;
+//     }
+//   }
+// }
