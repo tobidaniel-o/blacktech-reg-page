@@ -127,4 +127,11 @@ h1 {
   font-size: 1.1rem;
   cursor: pointer;
 }
+
+.thanks {
+  text-align: center;
+  background-color: inherit;
+  color: white;
+  font-family: "Convergence", sans-serif;
+}
 /*# sourceMappingURL=styles.css.map */
